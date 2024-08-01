@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#2B4EFF",
-        secondary: "#B8DDE3",
+        secondary: "#7BC6E6",
         backbg: "rgba(43, 78, 255, 0.7);",
       },
       screens: {

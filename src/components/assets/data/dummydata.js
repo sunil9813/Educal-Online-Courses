@@ -24,6 +24,11 @@ export const LinkData = [
     title: "blog",
     url: "/blog",
   },
+  {
+    id: 6,
+    title: "Login",
+    url: "/Login",
+  },
 ]
 export const courses = [
   {
@@ -33,27 +38,27 @@ export const courses = [
   },
   {
     id: 2,
-    cover: "../images/course-4-1.jpg",
+    cover: "../images/course-2-1.jpg",
     title: "Fashion and Luxury Fashion in a Changing",
   },
   {
     id: 3,
-    cover: "../images/course-5-1.jpg",
+    cover: "../images/course-2-1.jpg",
     title: "Creative writing through Storytelling",
   },
   {
     id: 4,
-    cover: "../images/course-6-1.jpg",
+    cover: "../images/course-2-1.jpg",
     title: "Improving The Accessibility Of Your Markdown",
   },
   {
     id: 5,
-    cover: "../images/course11.jpg",
+    cover: "../images/course-2-1.jpg",
     title: "Product Manager Learn the Skills & job.",
   },
   {
     id: 6,
-    cover: "../images/course12.jpg",
+    cover: "../images/course-2-1.jpg",
     title: "The business Intelligence analyst Course 2022",
   },
 ]

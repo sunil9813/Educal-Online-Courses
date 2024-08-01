@@ -8,14 +8,14 @@ export const Instructor = () => {
       <section className='instructor mb-16'>
         <div className='container'>
           <div className='heading py-12 text-center w-2/3 m-auto md:w-full'>
-            <h1 className='text-3xl font-semibold text-black'>What Is Skilline?</h1>
-            <span className='text-[14px] mt-2 block'>Sloshed faff about me old mucker blatant bubble and squeak hanky panky some dodgy chav bevvy arse chimney pot I, ruddy plastered buggered smashing blow off I'm telling up the kyver he legged it bleeder jolly good,</span>
+            <h1 className='text-3xl font-semibold text-black'>عنوان </h1>
+            <span className='text-[14px] mt-2 block'>نكتب وصف</span>
           </div>
           <div className='content grid grid-cols-2 gap-5 md:grid-cols-1'>
             <div className='images rounded-lg relative overflow-hidden h-72 w-ful before:bg-backbg before:h-72 before:w-full before:absolute before:top-0 before:left-0 before:content before:z-10'>
               <img src='https://bdevs.net/wp/educal/wp-content/uploads/2021/09/what-1.jpg' alt='' className='rounded-t-lg object-cover w-full h-72' />
               <div className='categ flex flex-col gap-4 absolute top-5 z-30 m-3 p-8 items-center justify-center text-center'>
-                <h2 className='text-3xl text-white font-semibold'>Mostly Online Learning</h2>
+                <h2 className='text-3xl text-white font-semibold'> Learning</h2>
                 <button className='text-[15px] py-2 px-4 border border-gray-200 rounded-md text-white'>Start a class today</button>
               </div>
             </div>
@@ -35,7 +35,7 @@ export const Instructor = () => {
             <div className='content grid grid-cols-4 gap-5 md:grid-cols-2'>
               <InstructorCard color='text-red-500' icon={<FaUsers size={40} />} title='63' desc='Students Enrolled' />
               <InstructorCard color='text-orange-500' icon={<GiEvilBook size={40} />} title='20' desc='Total Courses' />
-              <InstructorCard color='text-purple-500' icon={<FaGraduationCap size={40} />} title='4' desc='Online Learners' />
+              <InstructorCard color='text-purple-500' icon={<FaGraduationCap size={40} />} title='4' desc=' Learners' />
               <InstructorCard color='text-indigo-500' icon={<GiWorld size={40} />} title='4' desc='Online Learners' />
             </div>
           </div>

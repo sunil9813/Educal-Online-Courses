@@ -1,9 +1,10 @@
 import React, { useState } from "react"
-import LogoImg from "../assets/images/logo-black.png"
+import LogoImg from "../assets/images/logo2.png"
 import { LinkData } from "../assets/data/dummydata"
 import { NavLink } from "react-router-dom"
 import { BiShoppingBag } from "react-icons/bi"
 import { HiOutlineMenuAlt1, HiViewGrid } from "react-icons/hi"
+import {Link} from "react-router-dom"
 
 export const Header = () => {
   const [open, setOpen] = useState(false)
@@ -12,11 +13,8 @@ export const Header = () => {
       <header className='bg-white py-4 text-black sticky z-50 shadow-md top-0 left-0 w-full'>
         <div className='container flex justify-between items-center'>
           <div className='logo flex items-center gap-6'>
-            <img src={LogoImg} alt='logo' className='h-5' />
-            <div className='category flex items-center text-sm gap-3'>
-              <HiViewGrid size={20} />
-              <span>category</span>
-            </div>
+            <img src={LogoImg} alt='logo' className='h-5 w-10' />
+           
           </div>
           <nav className={open ? "mobile-view" : "desktop-view"}>
             <ul className='flex items-center gap-6'>
@@ -33,7 +31,8 @@ export const Header = () => {
             <button>
               <BiShoppingBag size={25} />
             </button>
-            <button>Login</button>{" "}
+            <Link to={"/login"}><button>Login</button></Link>
+            {/* {" "} */}
             <button className='open-menu' onClick={() => setOpen(!open)}>
               <HiOutlineMenuAlt1 size={25} />
             </button>

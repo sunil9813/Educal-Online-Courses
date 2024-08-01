@@ -6,6 +6,9 @@ import { About } from "./pages/About"
 import { Courses } from "./pages/Courses"
 import { Blog } from "./pages/Blog"
 import { Instructor } from "./pages/Instructor"
+import { Header } from "./components/common/Header"
+import Login from "./pages/login"
+
 
 function App() {
   return (
@@ -58,6 +61,14 @@ function App() {
               <Layout>
                 <BlogSinglePage />
               </Layout>
+            }
+          />
+           <Route
+            path='/Login'
+            element={
+            
+                <Login />
+               
             }
           />
         </Routes>
